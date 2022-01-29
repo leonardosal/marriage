@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/assets/fonts/JosefinSans-Regular.woff2') format('woff2'),
-      url('/assets/fonts/JosefinSans-Regular.woff') format('woff');
+  src: url('/assets/fonts/JosefinSans-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,17 +8,23 @@
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/assets/fonts/JosefinSans-Thin.woff2') format('woff2'),
-      url('/assets/fonts/JosefinSans-Thin.woff') format('woff');
+  src: url('/assets/fonts/JosefinSans-Thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
+  font-family: 'Josefin Sans';
+  src: url('JosefinSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Anjel Script';
-  src: url('/assets/fonts/AnjelScript.woff2') format('woff2'),
-      url('/assets/fonts/AnjelScript.woff') format('woff');
+  src: url('/assets/fonts/AnjelScript.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,8 +32,7 @@
 
 @font-face {
   font-family: 'Kurale';
-  src: url('/assets/fonts/Kurale-Regular.woff2') format('woff2'),
-      url('/assets/fonts/Kurale-Regular.woff') format('woff');
+  src: url('/assets/fonts/Kurale-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -36,8 +40,7 @@
 
 @font-face {
   font-family: 'Rozha One';
-  src: url('/assets/fonts/RozhaOne-Regular.woff2') format('woff2'),
-      url('/assets/fonts/RozhaOne-Regular.woff') format('woff');
+  src: url('/assets/fonts/RozhaOne-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
