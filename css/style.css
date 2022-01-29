@@ -39,7 +39,7 @@ header > h2 {
 }
 
 footer > h2 {
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1rem;
   text-align: center;
   margin-top: 4rem;
@@ -135,12 +135,6 @@ section.date > div > h3 {
 .title{
   text-align: center;
   min-height: 22.6rem;
- /* // background-image: url('/img/watercolor.webp');
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
-  
-  width: 100%; */
 }
 
 .subtitle{
