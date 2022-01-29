@@ -3,19 +3,40 @@ html{
 }
 
 body{
-  background-image: url('/img/bg.jpeg');
+  background-image: url('/img/bg.webp');
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   height: 100vh;
   width: 100vw;
   font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  body{
+    background-image: url('/img/bg2.webp');
+  }
+
+  html{
+    font-size: 80%;
+  }
+
+  .container{
+    max-height: 55.4rem;
+  }
 }
 
 header {
-  padding-top: 7.1rem;
   width: 100vw;
   max-width: 98.9rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5.5rem;
 }
 
 h2 {
@@ -28,17 +49,14 @@ h2 {
 header > h2 {
   font-size: 1.4rem;
   line-height: 1.4rem;
+  margin-bottom: 1.4rem;
 }
 
 footer > h2 {
   font-size: 1rem;
   line-height: 1rem;
   text-align: center;
-}
-
-footer {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  margin-top: 2rem;
 }
 
 .container {
@@ -47,13 +65,15 @@ footer {
   justify-content: space-between;
   flex-direction: column;
   max-width: 98.9rem;
-  min-width: 37.5rem;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 .content{
   max-width: 98.9rem;
   min-width: 37.5rem;
+  margin-bottom: 3rem;
 }
 
 h1{
@@ -63,7 +83,6 @@ h1{
   font-size: 7.2rem;
   line-height: 7.2rem;
   text-align: center;
-  margin-bottom: 4.1rem;
 }
 
 ul{
@@ -98,10 +117,14 @@ ul > li:last-of-type > img {
 
 section.date{
   text-align: center;
-  margin-bottom: 2.8rem;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-section.date > h3 {
+section.date > div > h3 {
   font-family: 'Rozha One';
   font-style: normal;
   font-weight: 400;
@@ -110,4 +133,34 @@ section.date > h3 {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.line{
+  width: 40px;
+  height: 1px;
+  border-top: 1px solid black;
+  opacity: 0.4;
+  align-self: center;
+}
+
+.title{
+  text-align: center;
+  min-height: 26.6rem;
+ /* // background-image: url('/img/watercolor.webp');
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  
+  width: 100%; */
+}
+
+.subtitle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subtitle > h2 {
+  margin-top: 1.4rem;
 }
