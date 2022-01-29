@@ -1,0 +1,113 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-image: url('/img/bg.jpeg');
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.6rem;
+}
+
+header {
+  padding-top: 7.1rem;
+  width: 100vw;
+  max-width: 98.9rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+header > h2 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+footer > h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+footer {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 98.9rem;
+  min-width: 37.5rem;
+  min-height: 100vh;
+}
+
+.content{
+  max-width: 98.9rem;
+  min-width: 37.5rem;
+}
+
+h1{
+  font-family: 'Anjel Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  text-align: center;
+  margin-bottom: 4.1rem;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.2rem;
+}
+
+ul > li{
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+ul > li > img{
+  margin-bottom: 0.6rem;
+}
+
+ul > li > p:first-of-type{
+  margin-bottom: 0.4rem;
+  opacity: 0.4;
+}
+
+ul > li:last-of-type > img {
+  margin-bottom: 1rem;
+}
+
+section.date{
+  text-align: center;
+  margin-bottom: 2.8rem;
+}
+
+section.date > h3 {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.0rem;
+  line-height: 5.7rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
