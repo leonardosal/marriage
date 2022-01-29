@@ -16,38 +16,6 @@ body{
   align-items: center;
 }
 
-header {
-  width: 100vw;
-  max-width: 98.9rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 6.5rem;
-}
-
-h2 {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 200;
-  text-transform: uppercase;
-}
-
-header > h2 {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-  margin-bottom: 1.4rem;
-}
-
-footer > h2 {
-  font-size: 1.4rem;
-  line-height: 1rem;
-  text-align: center;
-  margin-top: 4rem;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
 .container {
   display: flex;
   align-items: center;
@@ -59,13 +27,6 @@ footer > h2 {
   margin: 0 auto;
 }
 
-.content{
-  max-width: 98.9rem;
-  min-width: 37.5rem;
-  margin-bottom: 4rem;
-  margin-top: 1.4rem;
-}
-
 h1{
   font-family: 'Anjel Script';
   font-style: normal;
@@ -75,37 +36,31 @@ h1{
   text-align: center;
 }
 
-ul{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2.2rem;
-}
-
-ul > li{
-  font-family: 'Kurale';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-ul > li > img{
-  margin-bottom: 0.6rem;
-}
-
-ul > li > p:first-of-type{
-  margin-bottom: 0.4rem;
+hr{
+  width: 40px;
+  height: 1px;
+  border-top: 1px solid black;
   opacity: 0.4;
+  align-self: center;
+  margin-top: 1.4rem;
 }
 
-ul > li:last-of-type > img {
-  margin-bottom: 1rem;
+section.header {
+  width: 100vw;
+  max-width: 98.9rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6.1rem;
 }
 
-section.date{
+section.header > h2 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+section.hosts{
   text-align: center;
   min-width: 100%;
   display: flex;
@@ -114,7 +69,13 @@ section.date{
   justify-content: center;
 }
 
-section.date > div > h3 {
+section.invitation{
+  max-width: 98.9rem;
+  min-width: 37.5rem;
+  margin-bottom: 4rem;
+}
+
+section.invitation > h3 {
   font-family: 'Rozha One';
   font-style: normal;
   font-weight: 400;
@@ -125,28 +86,69 @@ section.date > div > h3 {
   text-transform: uppercase;
 }
 
-.line{
-  width: 40px;
-  height: 1px;
-  border-top: 1px solid black;
-  opacity: 0.4;
-  align-self: center;
-}
-
-.title{
+section.invitation > .date {
   text-align: center;
-  min-height: 22.6rem;
+  margin-bottom: 2rem;
 }
 
-.subtitle{
+section.invitation > .date > p:nth-child(1), section.invitation > .date > p:nth-child(3), section.invitation  > p, h2 {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+section.invitation > .date > p:nth-child(2) {  
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5.7rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+section.invitation > ul > li {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+section.invitation > ul {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
+  justify-content: space-between;
+  padding: 0 2.2rem;
 }
 
-.subtitle > h2 {
-  margin-top: 1.4rem;
+section.invitation > ul > li > img{
+  margin-bottom: 0.6rem;
+}
+
+section.invitation > ul > li > p:first-of-type{
+  margin-bottom: 0.4rem;
+  opacity: 0.4;
+}
+
+section.invitation > ul > li > p:last-of-type{
+  text-decoration: underline;
+}
+
+section.invitation > ul > li:last-of-type > img {
+  margin-bottom: 1rem;
+}
+
+section.invitation > p {
+  margin-top: 3rem;
 }
 
 @media (min-width: 768px) {
