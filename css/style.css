@@ -68,6 +68,13 @@ section.hosts{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url('/img/watercolor.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  width: 100vw;
 }
 
 section.invitation{
