@@ -138,20 +138,16 @@ section.invitation > ul {
   padding: 0 2.2rem;
 }
 
-section.invitation > ul > li > img{
+section.invitation > ul > li > a > img{
   margin-bottom: 0.6rem;
 }
 
-section.invitation > ul > li > p:first-of-type{
+section.invitation > ul > li > a > p:first-of-type{
   margin-bottom: 0.4rem;
   opacity: 0.4;
 }
 
-section.invitation > ul > li > p:last-of-type{
-  text-decoration: underline;
-}
-
-section.invitation > ul > li:last-of-type > img {
+section.invitation > ul > li:last-of-type > a > img {
   margin-bottom: 1rem;
 }
 
